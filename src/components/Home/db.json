@@ -1,0 +1,48 @@
+{
+  "uxuiprojects": [
+    {
+      "id": 1,
+      "name": "UI Test Name 1",
+      "description": "Test Description",
+      "linkPath": "project1",
+      "imageName": "img1.png"
+    },
+    {
+      "id": 2,
+      "name": "UI Test Name 2",
+      "description": "Test Description",
+      "linkPath": "project1",
+      "imageName": "img1.png"
+    },
+    {
+      "id": 3,
+      "name": "UI Test Name 3",
+      "description": "Test Description",
+      "linkPath": "project1",
+      "imageName": "img1.png"
+    }
+  ],
+  "codeprojects": [
+    {
+      "id": 1,
+      "name": "Code Test Name 1",
+      "description": "Test Description",
+      "linkPath": "project1",
+      "imageName": "img1.png"
+    },
+    {
+      "id": 2,
+      "name": "Code Test Name 2",
+      "description": "Test Description",
+      "linkPath": "project1",
+      "imageName": "img1.png"
+    },
+    {
+      "id": 3,
+      "name": "Code Test Name 3",
+      "description": "Test Description",
+      "linkPath": "project1",
+      "imageName": "img1.png"
+    }
+  ]
+}

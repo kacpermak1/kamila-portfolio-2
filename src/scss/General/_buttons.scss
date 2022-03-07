@@ -1,0 +1,24 @@
+.button {
+    display: inline-block;
+    width: auto;
+    height: 55px;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    line-height: 54px;
+    padding: 0 50px;
+}
+
+.primary-button {
+    background-color: #ffffff;
+    color: #154c5a;
+    border: 2px solid #154c5a;
+
+    &:hover,
+    &:focus,
+    &.active {
+        background-color: #154c5a;
+        color: #ffffff;
+        cursor: pointer;
+    }
+}
