@@ -2,47 +2,48 @@
   "uxuiprojects": [
     {
       "id": 1,
-      "name": "UI Test Name 1",
-      "description": "Test Description",
-      "linkPath": "project1",
-      "imageName": "img1.png"
+      "name": "Bookswapp",
+      "description": "Mobile App UI/UX Design",
+      "linkPath": "bookswapp",
+      "imageName": "bookswapp1.jpg"
     },
     {
       "id": 2,
-      "name": "UI Test Name 2",
-      "description": "Test Description",
-      "linkPath": "project1",
-      "imageName": "img1.png"
+      "name": "Healthspan",
+      "description": "Choose location landing page",
+      "linkPath": "healthspan",
+      "imageName": "healthspan1.jpg"
     },
     {
       "id": 3,
-      "name": "UI Test Name 3",
-      "description": "Test Description",
-      "linkPath": "project1",
-      "imageName": "img1.png"
+      "name": "Wedding Planner",
+      "description": "Mobile App UI/UX design",
+      "linkPath": "wedding-planner",
+      "imageName": "wedding-planner.jpg",
+      "imagePosition": "right"
     }
   ],
   "codeprojects": [
     {
       "id": 1,
-      "name": "Code Test Name 1",
-      "description": "Test Description",
-      "linkPath": "project1",
-      "imageName": "img1.png"
+      "name": "SurfShop",
+      "description": "Shop Landing page for e-commerce",
+      "linkPath": "surf",
+      "imageName": "surf.jpg"
     },
     {
       "id": 2,
-      "name": "Code Test Name 2",
-      "description": "Test Description",
-      "linkPath": "project1",
-      "imageName": "img1.png"
+      "name": "Planner",
+      "description": "Wedding planner landing page",
+      "linkPath": "planner",
+      "imageName": "planner.jpg"
     },
     {
       "id": 3,
-      "name": "Code Test Name 3",
-      "description": "Test Description",
-      "linkPath": "project1",
-      "imageName": "img1.png"
+      "name": "Bestshop",
+      "description": "Responsive landing page",
+      "linkPath": "bestshop",
+      "imageName": "bestshop.jpg"
     }
   ]
 }

@@ -33,8 +33,10 @@ function MyWork() {
             <MyWorkItem
               key={i}
               projectPath={e.linkPath}
-              imageName={e.name}
+              name={e.name}
+              description={e.description}
               imagePath={e.imageName}
+              imagePosition={e.imagePosition ? e.imagePosition : ""}
             />
           );
         })}

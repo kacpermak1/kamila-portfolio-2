@@ -1,9 +1,24 @@
 import React from "react";
 
 function MyWorkItem(props) {
+  let style = {
+    backgroundImage: "url(" + props.imagePath + ")",
+  };
+
+  if (props.imagePosition !== "") {
+    style = {
+      backgroundImage: style.backgroundImage,
+      backgroundPosition: props.imagePosition,
+    };
+  }
+
   return (
-    <a href={props.projectPath}>
-      <img alt={props.imageName} src={props.imagePath} />
+    <a className="my-work-item" href={props.projectPath}>
+      <div className="my-work-item-image" style={style}></div>
+      <div className="my-work-item-hover">
+        <h2>{props.name}</h2>
+        <p>{props.description}</p>
+      </div>
     </a>
   );
 }
