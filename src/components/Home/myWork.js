@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import data from "./db.json";
-import MyWorkItem from "./myWorkItem";
+import MyWorkItem from "./MyWorkItem";
 
 function MyWork() {
   const [buttonActive, setButtonActive] = useState(1);

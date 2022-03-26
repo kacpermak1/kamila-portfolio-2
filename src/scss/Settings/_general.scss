@@ -27,9 +27,39 @@ a {
     }
 }
 
+.page-404 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        display: inline-block;
+        padding-bottom: 300px;
+    }
+}
+
+h1 {
+    font-size: 46px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+@media (min-width: 1200px) {
+    .hidden-xl {
+        display: none !important;
+    }
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
     .container {
         max-width: 960px;
+    }
+
+    .hidden-lg {
+        display: none !important;
     }
 }
 
@@ -37,11 +67,19 @@ a {
     .container {
         max-width: 720px;
     }
+
+    .hidden-md {
+        display: none !important;
+    }
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
+@media (min-width: 577px) and (max-width: 767px) {
     .container {
         max-width: 540px;
+    }
+
+    .hidden-sm {
+        display: none !important;
     }
 }
 
@@ -49,5 +87,9 @@ a {
     .container {
         max-width: none;
         padding: 0 15px;
+    }
+
+    .hidden-xs {
+        display: none !important;
     }
 }

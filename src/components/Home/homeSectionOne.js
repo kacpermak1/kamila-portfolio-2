@@ -6,8 +6,10 @@ function HomeSectionOne() {
       <p>
         <span>Hello,</span>
         <span>I am Kamila,</span>
-        UI/UX designer, based in Oxfordshire. I am passionate about creating
-        user friendly designes.
+        <span>
+          UI/UX designer, based in Oxfordshire. I am passionate about creating
+          user friendly designes.
+        </span>
       </p>
       <div className="home-image"></div>
     </section>

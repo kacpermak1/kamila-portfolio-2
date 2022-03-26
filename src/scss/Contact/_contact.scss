@@ -1,0 +1,44 @@
+.contact {
+    margin-top: 80px;
+
+    label.Mui-focused {
+        color: #288aa3;
+    }
+
+    .MuiInput-underline:after {
+        border-bottom-color: #288aa3;
+    }
+
+    .MuiOutlinedInput-root {
+        &.Mui-focused fieldset {
+            border-color: #288aa3;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (min-width: 768px) {
+    .contact {
+        text-align: center;
+
+        & > div {
+            display: inline-block;
+            text-align: left;
+            width: 680px;
+        }
+    }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+}
+
+@media (max-width: 576px) {
+}

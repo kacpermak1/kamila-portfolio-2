@@ -13,12 +13,24 @@
     background-color: #ffffff;
     color: #154c5a;
     border: 2px solid #154c5a;
+    transition: all 0.3s;
 
     &:hover,
     &:focus,
-    &.active {
+    &.active,
+    &.alt {
         background-color: #154c5a;
         color: #ffffff;
         cursor: pointer;
+    }
+
+    &.alt {
+        &:hover,
+        &:focus {
+            background-color: #ffffff;
+            color: #154c5a;
+            text-decoration: none;
+            cursor: pointer;
+        }
     }
 }

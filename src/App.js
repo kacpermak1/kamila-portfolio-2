@@ -1,9 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./components/home";
-import About from "./components/About/aboutMain";
-import Contact from "./components/Contact/contactMain";
-import Header from "./components/Header/headerMain";
+import Home from "./components/Home";
+import About from "./components/About/AboutMain";
+import Contact from "./components/Contact/ContactMain";
+import Header from "./components/Header/HeaderMain";
+import Projects from "./components/Projects/ProjectsMain";
+import NotFound from "./components/NotFound/NotFoundMain";
 
 const App = () => {
   return (
@@ -13,6 +15,8 @@ const App = () => {
         <Route exact path="/" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="projects/*" element={<Projects />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
   );
