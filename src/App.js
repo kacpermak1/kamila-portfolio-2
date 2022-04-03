@@ -4,9 +4,8 @@ import Home from "./components/Home";
 import About from "./components/About/AboutMain";
 import Contact from "./components/Contact/ContactMain";
 import Header from "./components/Header/HeaderMain";
-import Projects from "./components/Projects/ProjectsMain";
+import Projects from "./components/Projects/ProjectsMain.js";
 import NotFound from "./components/NotFound/NotFoundMain";
-
 const App = () => {
   return (
     <Router>

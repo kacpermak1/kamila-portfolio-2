@@ -4,8 +4,8 @@ function About() {
   return (
     <div className="container">
       <section className="about-me">
-        <div class="about-me-image hidden-md hidden-lg hidden-xl"></div>
-        <div class="column-left">
+        <div className="about-me-image hidden-md hidden-lg hidden-xl"></div>
+        <div className="column-left">
           <h2>About Me</h2>
           <p>
             I am UI/UX designer, graduated from Google UX Design Course. I am
@@ -17,12 +17,12 @@ function About() {
           <a
             target="_blank"
             href="/Kamila_Stolarska_Resume.pdf"
-            class="button primary-button alt"
+            className="button primary-button alt"
           >
             Resume
           </a>
         </div>
-        <div class="about-me-image hidden-xs hidden-sm"></div>
+        <div className="about-me-image hidden-xs hidden-sm"></div>
       </section>
       <section>
         <p>Reach out to me</p>
