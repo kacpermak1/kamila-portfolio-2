@@ -8,7 +8,7 @@ import Projects from "./components/Projects/ProjectsMain.js";
 import NotFound from "./components/NotFound/NotFoundMain";
 const App = () => {
   return (
-    <Router>
+    <Router basename="kamila-portfolio-2">
       <Header />
       <Routes>
         <Route exact path="/" element={<Home />} />
