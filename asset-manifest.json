@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kamila-portfolio-2/static/css/main.94ec1bd1.css",
-    "main.js": "/kamila-portfolio-2/static/js/main.0e63a9af.js",
+    "main.js": "/kamila-portfolio-2/static/js/main.4a0a57af.js",
     "static/js/787.8444dcec.chunk.js": "/kamila-portfolio-2/static/js/787.8444dcec.chunk.js",
     "static/media/IMG_6668.JPG": "/kamila-portfolio-2/static/media/IMG_6668.f53c1a3f43404b9b433d.JPG",
     "static/media/IMG_6925.JPG": "/kamila-portfolio-2/static/media/IMG_6925.ef9b8da71dd363b914a1.JPG",
@@ -12,11 +12,11 @@
     "static/media/Luxia-Regular.woff2": "/kamila-portfolio-2/static/media/Luxia-Regular.0d94a0c5676a1a1eb1ee.woff2",
     "index.html": "/kamila-portfolio-2/index.html",
     "main.94ec1bd1.css.map": "/kamila-portfolio-2/static/css/main.94ec1bd1.css.map",
-    "main.0e63a9af.js.map": "/kamila-portfolio-2/static/js/main.0e63a9af.js.map",
+    "main.4a0a57af.js.map": "/kamila-portfolio-2/static/js/main.4a0a57af.js.map",
     "787.8444dcec.chunk.js.map": "/kamila-portfolio-2/static/js/787.8444dcec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.94ec1bd1.css",
-    "static/js/main.0e63a9af.js"
+    "static/js/main.4a0a57af.js"
   ]
 }
