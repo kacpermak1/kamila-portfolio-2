@@ -1,0 +1,57 @@
+.project-images {
+    .bookswapp {
+        img {
+            &:nth-child(2) {
+                margin-top: -320px;
+                position: relative;
+            }
+        }
+    }
+}
+@media (max-width: 1199px) {
+    .project-images {
+        .bookswapp {
+            img {
+                &:nth-child(2) {
+                    margin-top: -275px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .project-images {
+        .bookswapp {
+            img {
+                &:nth-child(2) {
+                    margin-top: -206px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+    .project-images {
+        .bookswapp {
+            img {
+                &:nth-child(2) {
+                    margin-top: -154px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .project-images {
+        .bookswapp {
+            img {
+                &:nth-child(2) {
+                    margin-top: -28%;
+                }
+            }
+        }
+    }
+}

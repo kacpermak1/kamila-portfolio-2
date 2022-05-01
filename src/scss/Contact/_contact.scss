@@ -2,16 +2,16 @@
     margin-top: 80px;
 
     label.Mui-focused:not(.Mui-error) {
-        color: #288aa3;
+        color: #4eadfc;
     }
 
     .MuiInput-underline:after {
-        border-bottom-color: #288aa3;
+        border-bottom-color: #4eadfc;
     }
 
     .MuiOutlinedInput-root {
         &.Mui-focused:not(.Mui-error) fieldset {
-            border-color: #288aa3;
+            border-color: #4eadfc;
         }
     }
 }
@@ -86,7 +86,7 @@
                 position: relative;
                 width: 80px;
                 height: 80px;
-                background-color: #288aa3;
+                background-color: #4eadfc;
                 border-radius: 50%;
                 z-index: 10;
                 &:after,
@@ -99,7 +99,7 @@
                     top: 50%;
                     left: 50%;
                     transform: translate(-50%, -50%);
-                    background-color: #288aa39f;
+                    background-color: #4eaefc85;
                     border-radius: 50%;
                     z-index: 1;
                 }
@@ -107,7 +107,7 @@
                 &:after {
                     width: 120px;
                     height: 120px;
-                    background-color: #288aa342;
+                    background-color: #4eaefc7a;
                 }
 
                 img {

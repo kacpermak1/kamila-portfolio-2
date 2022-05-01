@@ -3,6 +3,18 @@ import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
 function Home() {
+  const [mobileMenuActiveClass, setActiveClass] = React.useState("");
+
+  const toggleMobileMenuClass = () => {
+    if (document.body.clientWidth <= 767) {
+      if (mobileMenuActiveClass === "") {
+        setActiveClass(" active");
+      } else {
+        setActiveClass("");
+      }
+    }
+  };
+
   return (
     <header id="header-main">
       <nav>
@@ -12,13 +24,22 @@ function Home() {
               to={{
                 pathname: "/",
               }}
+              onClick={
+                mobileMenuActiveClass !== "" ? toggleMobileMenuClass : null
+              }
             >
               Kamila Stolarska
             </Link>
           </div>
-          <ul>
+          <ul className={mobileMenuActiveClass}>
             <li>
-              <HashLink smooth to="/#my-work" offset={0} duration={500}>
+              <HashLink
+                smooth
+                to="/#my-work"
+                offset={0}
+                duration={500}
+                onClick={toggleMobileMenuClass}
+              >
                 My Work
               </HashLink>
             </li>
@@ -27,6 +48,7 @@ function Home() {
                 to={{
                   pathname: "/about",
                 }}
+                onClick={toggleMobileMenuClass}
               >
                 About
               </Link>
@@ -36,11 +58,20 @@ function Home() {
                 to={{
                   pathname: "/contact",
                 }}
+                onClick={toggleMobileMenuClass}
               >
                 Contact
               </Link>
             </li>
           </ul>
+          <div
+            className={"hamburger-icon" + mobileMenuActiveClass}
+            onClick={toggleMobileMenuClass}
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
       </nav>
     </header>

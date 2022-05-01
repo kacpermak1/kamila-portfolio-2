@@ -5,7 +5,8 @@
       "name": "Bookswapp",
       "description": "Mobile App UI/UX Design",
       "linkPath": "book-swapp",
-      "imageName": "bookswapp1.jpg"
+      "imageName": "bookswapp1.jpg",
+      "numberOfProjectImages": 20
     },
     {
       "id": 2,
@@ -20,7 +21,8 @@
       "description": "Mobile App UI/UX design",
       "linkPath": "wedding-planner",
       "imageName": "wedding-planner.jpg",
-      "imagePosition": "right"
+      "imagePosition": "right",
+      "numberOfProjectImages": 14
     }
   ],
   "codeprojects": [

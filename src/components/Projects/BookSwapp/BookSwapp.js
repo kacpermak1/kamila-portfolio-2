@@ -1,9 +1,10 @@
 import React from "react";
+import ProjectImagesLister from "../ProjectImagesLister";
 
 function BookSwapp() {
   return (
-    <div>
-      <h1>BookSwapp</h1>
+    <div className="bookswapp">
+      <ProjectImagesLister projectName="Bookswapp" />
     </div>
   );
 }

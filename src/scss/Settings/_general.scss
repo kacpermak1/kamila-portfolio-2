@@ -7,7 +7,14 @@
 
 html {
     font-family: Luxia, Fallback, sans-serif;
-    color: #154c5a;
+    color: #222224;
+    //color: #55565b;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .container {
@@ -26,7 +33,7 @@ a {
         text-decoration: underline;
     }
     &:visited {
-        color: #154c5a;
+        color: #222224;
     }
 }
 

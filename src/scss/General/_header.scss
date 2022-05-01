@@ -38,5 +38,120 @@
                 letter-spacing: 1px;
             }
         }
+
+        .hamburger-icon {
+            display: none;
+        }
+    }
+}
+
+//Mobile Menu
+@media (max-width: 767px) {
+    #header-main {
+        .container {
+            justify-content: space-between;
+            position: relative;
+            height: 80px;
+        }
+
+        nav {
+            .home-link {
+                width: 60%;
+            }
+
+            ul {
+                z-index: 99999;
+                width: 100%;
+                display: block;
+                position: absolute;
+                top: 80px;
+                left: 0;
+                margin-left: 1000px;
+                transition: all 0.5s ease-in-out;
+                background-color: #ffffff;
+                box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+
+                li {
+                    position: relative;
+                    margin-left: -50vw;
+                    margin-right: -50vw;
+                    left: 50%;
+                    right: 50%;
+                    width: 100vw;
+                    padding-left: calc((100vw - 540px) / 2);
+                    background-color: #ffffff;
+
+                    &:last-of-type {
+                        padding-bottom: 15px;
+                    }
+
+                    a {
+                        display: block;
+                        padding: 15px 0;
+                        width: 100%;
+                    }
+                }
+
+                &.active {
+                    margin-left: 0px;
+                }
+            }
+
+            .hamburger-icon {
+                display: block;
+                transition: all 0.25s ease-in-out;
+
+                & > span {
+                    display: block;
+                    width: 28px;
+                    height: 2px;
+                    border-radius: 9999px;
+                    background-color: #154c5a;
+                    transition: all 0.4s ease-in-out;
+                }
+
+                & > span:not(:last-child) {
+                    margin-bottom: 7px;
+                }
+
+                &.active {
+                    transition-delay: 0.8s;
+                    transform: rotate(45deg);
+
+                    & > span {
+                        &:nth-child(2) {
+                            width: 0;
+                        }
+
+                        &:nth-child(1),
+                        &:nth-child(3) {
+                            transition-delay: 0.4s;
+                        }
+
+                        &:nth-child(1) {
+                            transform: translateY(9px);
+                        }
+
+                        &:nth-child(3) {
+                            transform: translateY(-9px) rotate(90deg);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    #header-main {
+        nav {
+            ul {
+                left: 0;
+
+                li {
+                    padding-left: 15px;
+                }
+            }
+        }
     }
 }

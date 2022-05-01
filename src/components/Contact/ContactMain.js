@@ -179,7 +179,6 @@ function Contact() {
           </div>
         </div>
       </div>
-
       {values.showPopup ? (
         <ContactPopup
           emailSent={values.emailSent}
