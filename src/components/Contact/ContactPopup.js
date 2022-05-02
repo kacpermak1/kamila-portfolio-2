@@ -18,10 +18,10 @@ function ContactPopup(props) {
       >
         <div className="popup-inner">
           <span className="popup-close" onClick={closePopup}>
-            <img alt="close" src="./close_icon.png" />
+            <img alt="close" src={process.env.PUBLIC_URL + "/close_icon.png"} />
           </span>
           <div className="email-icon">
-            <img alt="email" src="./email_icon.png" />
+            <img alt="email" src={process.env.PUBLIC_URL + "/email_icon.png"} />
           </div>
           <h2>{props.emailSent ? "THANK YOU" : "OOPS..."}</h2>
           <p>
@@ -37,7 +37,7 @@ function ContactPopup(props) {
                 pathname: "/",
               }}
             >
-              <img alt="home" src="./home_icon.png" />
+              <img alt="home" src={process.env.PUBLIC_URL + "/home_icon.png"} />
             </Link>
           </div>
         </div>

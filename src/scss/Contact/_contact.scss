@@ -1,6 +1,13 @@
 .contact {
     margin-top: 80px;
 
+    h2 {
+        font-size: 30px;
+        letter-spacing: 1.45px;
+        color: #4eadfc;
+        margin-bottom: 30px;
+    }
+
     label.Mui-focused:not(.Mui-error) {
         color: #4eadfc;
     }
@@ -169,8 +176,6 @@
 
 @media (max-width: 576px) {
     .contact-form-popup {
-        .popup-inner {
-            width: calc(100vw - 30px);
-        }
+        width: calc(100vw - 30px);
     }
 }

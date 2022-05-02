@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 
 function MyWorkItem(props) {
   let style = {
-    backgroundImage: "url(" + props.imagePath + ")",
+    backgroundImage:
+      "url(" + process.env.PUBLIC_URL + "/" + props.imagePath + ")",
   };
 
   if (props.imagePosition !== "") {

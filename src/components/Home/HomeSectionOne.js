@@ -1,6 +1,10 @@
 import React from "react";
 
 function HomeSectionOne() {
+  let style = {
+    backgroundImage: "url(" + process.env.PUBLIC_URL + "/IMG_6668.JPG)",
+  };
+
   return (
     <section className="section-one">
       <p>
@@ -11,7 +15,7 @@ function HomeSectionOne() {
           user friendly designes.
         </span>
       </p>
-      <div className="home-image"></div>
+      <div className="home-image" style={style}></div>
     </section>
   );
 }

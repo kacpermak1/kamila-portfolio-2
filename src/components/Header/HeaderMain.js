@@ -20,16 +20,17 @@ function Home() {
       <nav>
         <div className="container">
           <div className="home-link">
-            <Link
-              to={{
-                pathname: "/",
-              }}
+            <HashLink
+              smooth
+              to="/#top"
+              duration={500}
+              offset={30}
               onClick={
                 mobileMenuActiveClass !== "" ? toggleMobileMenuClass : null
               }
             >
               Kamila Stolarska
-            </Link>
+            </HashLink>
           </div>
           <ul className={mobileMenuActiveClass}>
             <li>

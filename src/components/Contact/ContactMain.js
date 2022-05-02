@@ -130,6 +130,7 @@ function Contact() {
       <div className="container">
         <div className="contact">
           <div>
+            <h2>Get in touch</h2>
             <Box
               component="form"
               sx={{
@@ -173,7 +174,7 @@ function Contact() {
               />
 
               <button type="submit" className="button primary-button alt">
-                Send email
+                Send
               </button>
             </Box>
           </div>
